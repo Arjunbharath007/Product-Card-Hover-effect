@@ -1,0 +1,138 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	display:flex;
+	justify-content: center;
+	background: #020202;
+}
+.ia{
+	height: 300px;
+}
+.container{
+
+	position: relative;
+	width:1600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	margin-top: 8%;
+}
+
+.container .card{
+	width:308px;
+	position: relative;
+	height: 400px;
+	background-image: linear-gradient(rgba(12, 12, 12, 0),rgb(65, 63, 63),rgb(40, 40, 41));
+	margin:30px 30px;
+	padding: 20px 15px;
+	display:flex;
+	flex-direction: column;
+	box-shadow: 0.5px 10px #e6e6e600;
+	transition:0.3s ease-in-out;
+	margin-top: 5%;
+	border-radius: 20px;
+}
+
+
+.container .card .imgBx{
+	position: relative;
+	width:260px;
+	height: 260px;
+	top: -60px;
+	left:20px;
+	box-shadow: 0 5px 20px rbga (0,0,0,1.2);
+
+}
+
+.container .card .imgBx img
+{
+	max-width: 100%;
+	border-radius: 10px;
+	
+}
+
+.imgBx:hover img{
+	transform: scale(1.1);
+}
+.disp{
+	margin-top: 20px;
+}
+.phrs{
+	
+	font-weight: bold;
+}
+.button{
+	background-color: transparent;
+	border: 1px solid rgb(121, 121, 121);
+	height: 40px;
+	width: 150px;
+	margin-top: 20px;
+	border-radius: 20px;
+	
+}
+.bu1{
+	display: flex;
+	justify-content: center;
+}
+.adc{
+	display: flex;
+	justify-content: center;
+	margin-top: -1px;
+}
+.adc1{
+	font-size: 12px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-top: -38px;
+	background-color: rgba(0, 236, 157, 0);
+	padding-top: 10PX;
+	padding-left: 28px;
+	padding-right:28px ;
+	border-radius: 20px;
+	
+}
+.adc1 a{
+	text-decoration: none;
+	color: rgb(155, 152, 152);
+	
+}
+
+.adc1:hover{
+	font-size: 12px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-top: -38px;
+	background-color: rgba(2, 88, 59, 0.678);
+	padding-top: 10PX;
+	padding-left: 28px;
+	padding-right:28px ;
+	border-radius: 20px;
+	
+}
+.container .card:hover{
+	width:308px;
+	position: relative;
+	height: 400px;
+	background-image: linear-gradient(rgba(12, 12, 12, 0),rgba(146, 3, 3, 0.527),rgb(0, 0, 0));
+	margin:30px 30px;
+	padding: 20px 15px;
+	display:flex;
+	flex-direction: column;
+	box-shadow: 0.5px 10px #e6e6e600;
+	transition:0.3s ease-in-out;
+	margin-top: 5%;
+	border-radius: 20px;
+	transform: scale(1.1);
+}
+
+.container .card:hover .disp {
+	color: blue;
+  }
+  .container .card:hover .phrs {
+	color: blue;
+  }
+  
